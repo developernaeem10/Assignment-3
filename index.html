@@ -23,20 +23,79 @@
           extend: {
             colors: {
               clifford: "#da373d",
+              accent: "#179800",
             },
           },
         },
       };
     </script>
     <style>
-        .sora{
-            font-family: "Sora", serif;
-        }
+      .sora {
+        font-family: "Sora", serif;
+      }
     </style>
   </head>
   <body class="sora">
-    <header class="">
-        <h1>welcome</h1>
+    <header
+      class="bg-gradient-to-b from-[#ffffff] to-[#EFEBE3]"
+    >
+      <div class="md:container mx-auto px-4">
+        <div class="flex justify-between items-center mt-8 mb-24 pb-2 border-b border-green-500">
+          <div class="md:hidden">
+            <img src="./c2-assets/Group (2).png" alt="">
+          </div>
+          <div class="hidden md:block">
+            <img src="./c2-assets/logo-header.png" alt="" />
+          </div>
+          <nav class="hidden md:block">
+            <ul>
+              <li class="space-x-20 text-xl">
+                <a href="">Product</a>
+                <a href="">Services</a>
+                <a href="">Contact Us</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="hidden md:flex md:justify-center md:items-center md:gap-7">
+            <div class="flex gap-6">
+              <div><img src="./c2-assets/Group (1).png" alt="" /></div>
+              <div><img src="./c2-assets/Frame 6.png" alt="" /></div>
+            </div>
+            <div class="space-x-3">
+              <button
+                class="btn btn-outline border border-green-500 text-black text-xl"
+              >
+                Login
+              </button>
+              <button class="btn btn-outline bg-[#179800] text-white text-xl">
+                Register
+              </button>
+            </div>
+          </div>
+          <div class="md:hidden">
+            <img src="./c2-assets/bars-3.png" alt="">
+          </div>
+        </div>
+        
+        <div
+          class="flex flex-col gap-8 justify-center items-center text-center mb-8"
+        >
+          <h1 class="text-6xl font-semibold">
+            Freshness
+            <span class="text-[#179800]"
+              >You Can <br />
+              Count</span
+            >
+            On, Prices You’ll Love!
+          </h1>
+          <p class="text-xl font-normal">
+            Shop your daily essentials at unbeatable prices. From fresh produce
+            to pantry <br />
+            staples, we’ve got you covered every day!
+          </p>
+          <div><img src="./c2-assets/hero-vegetables.png" alt="" /></div>
+        </div>
+      </div>
     </header>
     <main></main>
     <footer></footer>
